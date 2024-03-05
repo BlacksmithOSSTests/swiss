@@ -31,7 +31,7 @@ jobs:
 
   linux-race:
     name: go-linux-race
-    runs-on: blacksmith
+    runs-on: blacksmith-4vcpu-ubuntu-2204
     steps:
       - uses: actions/checkout@v2
 
@@ -44,7 +44,7 @@ jobs:
 
   linux-32bit:
     name: go-linux-32bit
-    runs-on: blacksmith
+    runs-on: blacksmith-4vcpu-ubuntu-2204
     steps:
       - uses: actions/checkout@v2
 
