@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         os:
-          - blacksmith
+          - blacksmith-4vcpu-ubuntu-2204
           - macos-latest
         go:
           - '1.21'
